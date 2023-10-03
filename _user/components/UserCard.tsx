@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { connectMongoDB } from "@/lib/mongodb";
 import { getSession, useSession } from "next-auth/react";
-import { User } from "../../models/user";
+import { User } from "../models/user";
 
 type User =
 	| {
